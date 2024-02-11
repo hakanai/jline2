@@ -1,0 +1,119 @@
+repo_name: hakanai/jline2
+report_id: 56c262f73a342516722b0682aac45251
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:35:19+00:00'
+requested_by: hakanai
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/jline2
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/jline2
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: mprudhom
+  last_updated_on: 2006-07-22 02:59:28.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Guillaume Nodet
+  last_updated_on: 2015-07-21 19:57:05.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.easymock:easymock
+  description: EasyMock provides an easy way to create Mock Objects for interfaces
+    and classes generating them on the fly
+  version: 3.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Guillaume Nodet
+  last_updated_on: 2015-11-10 16:26:42.000000000 Z
+- name: org.fusesource.jansi:jansi
+  description: Jansi is a java library for generating and interpreting ANSI escape
+    sequences
+  version: '1.12'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Guillaume Nodet
+  last_updated_on: 2016-05-09 06:12:12.000000000 Z
+- name: org.powermock:powermock-api-easymock
+  description: PowerMock API for EasyMock
+  version: 1.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Guillaume Nodet
+  last_updated_on: 2015-11-10 16:26:42.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 1.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/jline2/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Guillaume Nodet
+  last_updated_on: 2015-11-10 16:26:42.000000000 Z
